@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Melnikov Sergey">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Зимний дворец</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/my.css" rel="stylesheet">
+    <style>
+    </style>
+  </head>
+  <body>
+	<header>
+		<section class="py-1 text-center container">
+	     	    <div class="row py-lg-5">
+      			<div class="col-lg-6 col-md-8 mx-auto">
+        			<h1 class="fw-light text-center">Редактирование</h1>
+      			</div>
+    		    </div>
+	 	</section>
+	</header>
+	
+	<main>
+		<div class="row">
+			<div class="     col-lg-2 col-md-2 col-sm-1  col-xs-2 py-2"></div>
+		    	<div class="card col-lg-8 col-md-8 col-sm-10 col-xs-10 py-2">
+			    <div class="form-group" color=black align-items: stretch>
+			        <label for="id_image">Изображение</label>
+			        <input  type="file" name="image" id="id_image" accept="image/*" required>
+			    </div>
+		
+			    <div class="form-group">
+			      <label for="inputEmail4">Название</label>
+			      <input type="text" name="duration" class="form-control" placeholder="название" required autofocus value="Зимний дворец">
+			    </div>
+			   
+			    <div class="form-group">
+		    		<label>Тип экскурсии:</label>
+		    		<select multiple class="form-control">
+		      			<option>Пешеходная</option>
+		      			<option>Автобусная</option>
+		    		</select>
+		  	    </div>
+		
+			    <div class="form-group">
+			      <label>Продолжительность</label>
+			      <input type="text" name="duration" class="form-control" placeholder="продолжительность" required autofocus value="1,5-2 часа">
+			    </div>
+		
+			    <div class="form-group">
+			      <label for="inputEmail4">Организатор</label>
+			      <input type="text" name="company" class="form-control" placeholder="организатор" required autofocus value="ООО Турист">
+			    </div>
+		
+			    <div class="form-group">
+			      <label for="inputEmail4">Номер телефона</label>
+			      <input type="PhoneNumberField" name="phone_number" class="form-control" placeholder="номер телефона" required autofocus value="+7 (3852) 63-35-75">
+			    </div>
+		
+			    <div class="form-group">
+			      <label for="exampleFormControlTextarea1">Описание</label>
+			      <textarea class="form-control" id="id_description" rows="3" name="description" >Побывать в Зимнем Дворце стоит каждому, ведь здесь представлены сокровища мировой культуры.</textarea>
+			    </div>
+	
+			    <div class="form-group">
+			      <label for="inputEmail4">Стоимость (р)</label>
+			      <input type="number" name="cost" class="form-control" placeholder="стоимость" required autofocus value="3000">
+			    </div>
+			
+			    <div class="d-flex justify-content-between align-items-center">
+		              <div class="btn-group">
+		                <a href="index.html" button type="button" class="btn btn-sm btn-outline-secondary">На главную</button></a>
+		                <button type="submit" class="btn btn-sm btn-outline-secondary">Принять</button></a>
+		              </div>
+		            </div>
+	    		</div>
+		</div>
+	</main>
+
+	<footer class="py-3">
+		<p class="text-center">Экскурсии по Санкт-Петербургу</p>
+		<p class="text-center">Все права защищены</p>
+	</footer>
+  </body>
+</html>

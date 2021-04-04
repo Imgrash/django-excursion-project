@@ -1,0 +1,14 @@
+body {background-color: #35bda6;};
+@font-face {
+    font-family: 'Cormorant Unicase';
+    url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@700&display=swap');
+}
+	div {
+	font-family: "Cormorant Unicase";
+	}
+	small {
+	font-family: "Cormorant Unicase";
+	}
+	p {
+	font-family: "Cormorant Unicase";
+	}
